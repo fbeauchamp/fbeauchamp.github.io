@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="fr" xmlns="http://www.w3.org/1999/html">
+<head>
+
+    <meta charset="utf-8"/>
+    <title>Florent BEAUCHAMP</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+    <style>
+        html {
+            height: 100%
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0 2%;
+            line-height: 1.4286em;
+            background: url(fabric_of_squares_gray.png);
+            min-width: 300px;
+        }
+
+        summary, details, p {
+            text-align: justify;
+        }
+
+        aside h1 {
+        }
+
+        ul.tags {
+            padding: 0;
+            margin: 0;
+        }
+
+        ul.tags li {
+            float: left;
+            margin: 0.1428571428571429em 0.2857142857142857em;
+            list-style-type: none;
+            padding: 0.0714285714285714em 0.4285714285714286em;
+            color: #555;
+            background-color: #eee;
+            border-radius: 0.5em;
+        }
+
+        ul.tags:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        section {
+            border: 0.09em solid rgb(170, 170, 170);
+            border-radius: 1em;
+            margin: 1em 0;
+            background-color: white;
+            padding: 0.2857142857142857em 0.714285714285714em;
+        }
+
+        article {
+            width: 96%;
+            margin: 0 2%;
+            position: relative;
+        }
+
+        h2 {
+            font-size: 150%;
+            line-height: 1.5em;
+            height: auto;
+            color: #AAA
+        }
+
+        .year-start {
+            display: block;
+            left: -3em;
+            top: 2.1em;
+            position: absolute;
+            padding: 0.25em;
+            background-color: #dd4814;
+            color: white;
+            border-bottom-left-radius: 0.25em;
+            border-top-left-radius: 0.25em;
+        }
+
+        .year-end {
+            display: block;
+            left: -3em;
+            top: 0.1em;
+            position: absolute;
+            padding: 0.25em;
+            background-color: #dd4814;
+            color: white;
+            border-bottom-left-radius: 0.25em;
+            border-top-left-radius: 0.25em;
+        }
+
+        section h1 {
+            font-size: 175%;
+            line-height: 1.5em;
+            line-height: 1.5em;
+
+        }
+
+        aside span {
+            margin: 0.25em;
+            white-space: nowrap;
+            cursor: text;
+
+        }
+
+        aside .tags-container {
+            text-align: center;
+        }
+
+        hr {
+            margin: 0.714285714285714em 0
+        }
+
+        @media screen and (max-width: 1200px) and (min-width: 980px) {
+
+            .row .span8 {
+                margin-left: 30px;
+                width: 610px;
+            }
+
+        }
+
+        @media screen and (max-width: 979px) and (min-width: 768px) {
+            body {
+                font-size: 13px;
+            }
+
+            .row .span8 {
+                margin-left: 30px;
+                width: 466px;
+            }
+
+        }
+
+        @media screen and (max-width: 767px) {
+            body {
+                font-size: 12px;
+            }
+
+            .row {
+                margin-left: 1.2em;
+            }
+
+            ul.tags {
+                text-align: center;
+            }
+
+            ul.tags li {
+                display: inline;
+                float: none;
+            }
+
+            .skills {
+                display: none;
+
+            }
+
+    </style>
+
+</head>
+<body class="container">
+<div class="row">
+
+<aside class="span4">
+
+    <section>
+        <h1>Florent BEAUCHAMP</h1>
+
+        <p>Ingénieur territorial de 33 ans, je vis à côté de <a target="_blank" href="http://goo.gl/KathQ"
+                                                                title="Voir où se trouve mâcon">Mâcon</a> avec ma
+            famille</p>
+        <a href="mailto:florent.beauchamp@outlook.com" title="M'écrire un email">florent.beauchamp@outlook.com</a>
+    </section>
+    <section>
+
+        <h1>Objectifs professionnels</h1>
+        <hr>
+        <p>Je cherche à apporter mes compétences en conception et réalisation d'applications à une structure publique ou
+            privée qui me permettra de continuer à me développer au contact de gens passionnés.</p>
+
+    </section>
+
+    <section class="skills">
+
+        <h1>Compétences</h1>
+        <hr>
+        <div class="tags-container">
+            <span href="#" rel=6>Symfony1</span>
+            <span href="#" rel=9>Javascript</span>
+            <span href="#" rel=7>Marché publics</span>
+            <span href="#" rel=6>SIG</span>
+            <span href="#" rel=8>MySQL</span>
+            <span href="#" rel=7>Postgresql</span>
+            <span href="#" rel=5>Backbone.js</span>
+            <span href="#" rel=9>PHP</span>
+            <span href="#" rel=6>Ergonomie</span>
+            <span href="#" rel=7>Responsive design</span>
+            <span href="#" rel=7>node.js</span>
+            <span href="#" rel=5>SOLR</span>
+            <span href="#" rel=5>Phonegap</span>
+            <span href="#" rel=8>Anglais</span>
+        </div>
+    </section>
+
+
+</aside>
+
+
+<div class="span8">
+
+
+    <section>
+        <h1>Projets marquants</h1>
+        <hr>
+
+        <article class="sdis71">
+            <h2> Application mobile d'échange d'informations en opération</h2>
+
+            <details>
+                <summary>
+                    <span class="year-end">2013</span>
+                    Communication multiplateforme et multimodale en temps réel au sein de la chaîne de commandement,
+                    avec les autorités et nos partenaires, notamment les médias.<br>
+                    Conçue initialement comme une exploration des possibilités techniques, cette solution est devenue
+                    incontournable.
+                </summary>
+
+            </details>
+            <ul class="tags">
+                <li>HTML5</li>
+                <li>Node.js</li>
+                <li>Socket.io</li>
+                <li>Backbone.js</li>
+                <li>JQuery</li>
+                <li>Leaflet</li>
+                <li>Responsive design</li>
+                <li>Android</li>
+                <li>IOS</li>
+            </ul>
+        </article>
+
+
+        <article class="perso">
+            <h2>Application web mobile de planification de sortie: <a href="http://opendata.stri.im">Striim</a></h2>
+
+            <details>
+                <summary>
+                    <span class="year-end">2012</span>
+                    Conçue dans un cadre privé pour le concours Opendata71 avec Jean Philippe BOURGEON, elle a été
+                    <a title="voir liste des applications primées"
+                       href="http://www.opendata71.fr/toutes-les-applications" target="_blank">récompensée par le Prix
+                        du
+                        jury</a><br>
+                    Réalisation du front end aggrégeant les données de l'OpenData à des fournisseurs de données tiers :
+                    Qype, Allociné, Google Place
+                </summary>
+            </details>
+            <ul class="tags">
+                <li>Projet personnel</li>
+                <li>HTML5</li>
+                <li>JQuery</li>
+                <li>JQuery Mobile</li>
+                <li>Javascript</li>
+                <li>PHP</li>
+                <li>Symfony2</li>
+                <li>Phonegap</li>
+            </ul>
+        </article>
+
+
+        <article class="sdis71">
+            <h2>Application d'indemnisation des pompiers volontaires </h2>
+
+            <details>
+                <summary>
+                    <span class="year-start">2009</span><span class="year-end">2010</span>
+                    Conception et réalisation de cette application pour distribuer 4 millions d'euros par an à 2200
+                    agents.<br>
+                    Intégration de données depuis les logiciels métiers (RH, Opérations, Visites médicales et
+                    formation), contrôle, calcul et génération des trains de payes, reporting
+                </summary>
+
+            </details>
+            <ul class="tags">
+                <li>Symfony1</li>
+                <li>Doctrine1</li>
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>ETL</li>
+            </ul>
+        </article>
+
+
+        <article class="sdis71">
+            <h2>Acquisition d'une solution d'edition de SIG en mode web</h2>
+
+            <details>
+                <summary>
+                    <span class="year-start">2008</span><span class="year-end">2009</span>
+                    Analyse du besoin, rédaction du CCTP, Analyse des offres, suivi de l'exécution<br>
+                    Maintenance corrective et évolutive suite à la défaillance du fournisseur
+                </summary>
+
+            </details>
+            <ul class="tags">
+                <li>Marché public</li>
+                <li>Mapserver</li>
+                <li>GeoConcept</li>
+                <li>Postgresql</li>
+                <li>Postgis</li>
+                <li>SQL Server</li>
+                <li>PHP</li>
+                <li><abbr title="Extract Transform and Load">ETL</li>
+            </ul>
+        </article>
+
+
+        <article class="sdis71 major">
+            <h2>Extranet </h2>
+
+            <details>
+                <summary>
+                    <span class="year-start">2006</span><span class="year-end">2011</span>
+                    Réalisation d'un extranet croisant les informations opérationnelles en temps réél aux bases
+                    métiers et documentaires. <br>
+                    Gagnant du Label Intranet Territorial en
+                    <a title="voir les résultat du label 2007" href="http://oten.fr/?Resultats-officiels-du-Label"
+                       target="_blank"> 2007</a> et
+                    <a title="voir les résultat du label 2008" target="_blank"
+                       href="http://www.journaldunet.com/solutions/intranet-extranet/reportage/management-et-organisation-au-coeur-des-intranets-territoriaux/le-service-departemental-d-incendie-et-de-secours-de-saone-et-loire-met-le-feu-a-son-intranet.shtml">
+                        2008</a><br>
+                    Formation et animation pour réussir le changement de pratiques : 75% des utilisateurs se connectent
+                    au moins une fois par mois, et 45% quotidiennement (chiffres de 2012).
+                </summary>
+
+
+            </details>
+            <ul class="tags">
+                <li>PHP</li>
+                <li>MySQL</li>
+                <li>SQL Server</li>
+                <li>SOLR</li>
+                <li>Yahoo UI</li>
+                <li>JQuery</li>
+            </ul>
+        </article>
+
+
+    </section>
+
+    <section class="formation">
+        <h1>Parcours</h1>
+        <hr>
+
+        <article>
+            <h2>Ingénieur de développement <abbr
+                    title="Service Départemental d'Incendie et de Secours de la Saône et Loire">SDIS 71</abbr></h2>
+            <details open>
+                <summary>
+                    <span class="year-start">2006</span>
+                    <span class="year-end">2013</span>
+                    Analyste - Développeur<br>
+                    Collectivité basée à Mâcon (71)<br>
+                    Titularisé en 2011, dès ma réussite au concours d'ingénieur territorial
+                </summary>
+                <ul>
+                    <li>Pilotage de projets innovants</li>
+                    <li>Marchés publics : rédaction du CCTP, analyse des appels d'offres, suivi</li>
+                    <li>Réalisation de solutions sur mesure</li>
+                    <li>Maintenance corrective et évolutive</li>
+                    <li>Extraction de données depuis et vers l'entrepôt de données</li>
+                    <li>Administration Linux</li>
+                </ul>
+            </details>
+        </article>
+        <article>
+            <h2>Alphalog</h2>
+
+            <details open>
+                <summary>
+                    <span class="year-start">2004</span>
+                    <span class="year-end">2006</span>
+                    Analyste - Développeur<br> Réalisation d'Extranet pour des grands comptes
+                    PME basée à Andrésy (78)
+                </summary>
+                <ul>
+                    <li>Quiz multi langue pour les 120 000 salariés de Renault</li>
+                    <li>Suivi des envois et des sav, contrôle des stocks et facturation pour Tiscali</li>
+                    <li>Site de stimulation commerciale à destination des agences de voyages pour la SNCF</li>
+                </ul>
+            </details>
+
+        </article>
+
+        <article>
+            <h2>Master informatique </h2>
+
+            <details open>
+                <summary>
+                    <span class="year-start">1998</span><span class="year-end">2003</span>
+                    Communication et collaboration dans les systèmes à agents
+                </summary>
+                <ul>
+                    <li>2002 - 2003 : MASTER recherche à Université de Savoie et Ecole Nationale Supérieur des Mines de
+                        Saint
+                        Etienne (42)
+                    </li>
+                    <li>2001 - 2002 : Maitrise informatique à Université Jean Monnet, Saint Etienne(42)</li>
+                    <li>2000 - 2001 : Licence informatique à Université Jean Monnet, Saint Etienne(42)</li>
+                    <li>1998 - 2000 : DEUG Science de la matière à Université Jean Monnet, ROANNE(42)</li>
+
+                </ul>
+
+            </details>
+        </article>
+        <div class="clearfix"></div>
+    </section>
+
+</div>
+
+
+</div>
+<script src="js/jquery-1.7.1.min.js"></script>
+<script src="js/jquery.tagcloud.js"></script>
+<script>
+    $(function () {
+        $.fn.tagcloud.defaults = {
+            size: {start: 10, end: 19, unit: 'pt'},
+            color: {start: '#cde', end: '#f52'}
+        };
+        $('.skills span').tagcloud();
+    });
+
+</script>
+
+<footer>
+</footer>
+
+<!-- #content -->
+
+
+</body>
+</html>
