@@ -197,6 +197,16 @@
             article {
                 page-break-inside: avoid;
             }
+            article{
+                /* page-break-inside: avoid !important; <-- doesn't work*/
+                display:inline-block;
+            }
+            
+            article:after{
+                display:block;
+                height:0px;
+                visibility: hidden;
+            }
             .noprint{
                 display:none;
             }
