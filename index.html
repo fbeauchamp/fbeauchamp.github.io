@@ -16,8 +16,7 @@
             height: 100%;
             margin: 0;
             padding: 0 2%;
-            line-height: 1.4286em;
-            background: url(fabric_of_squares_gray.png);
+            line-height: 1.4286em; 
             min-width: 300px;
         }
 
@@ -37,9 +36,7 @@
             float: left;
             margin: 0.1428571428571429em 0.2857142857142857em;
             list-style-type: none;
-            padding: 0.0714285714285714em 0.4285714285714286em;
-            color: #555;
-            background-color: #eee;
+            padding: 0.0714285714285714em 0.4285714285714286em; 
             border-radius: 0.5em;
         }
 
@@ -52,8 +49,7 @@
         section {
             border: 0.09em solid rgb(170, 170, 170);
             border-radius: 1em;
-            margin: 1em 0;
-            background-color: white;
+            margin: 1em 0; 
             padding: 0.2857142857142857em 0.714285714285714em;
         }
 
@@ -66,8 +62,7 @@
         h2 {
             font-size: 150%;
             line-height: 1.5em;
-            height: auto;
-            color: #AAA
+            height: auto; 
         }
 
         .year-start {
@@ -75,9 +70,7 @@
             left: -3em;
             top: 2.1em;
             position: absolute;
-            padding: 0.25em;
-            background-color: #dd4814;
-            color: white;
+            padding: 0.25em; 
             border-bottom-left-radius: 0.25em;
             border-top-left-radius: 0.25em;
         }
@@ -87,9 +80,7 @@
             left: -3em;
             top: 0.1em;
             position: absolute;
-            padding: 0.25em;
-            background-color: #dd4814;
-            color: white;
+            padding: 0.25em; 
             border-bottom-left-radius: 0.25em;
             border-top-left-radius: 0.25em;
         }
@@ -159,6 +150,41 @@
                 display: none;
 
             }
+        }
+ @media print  {
+    /*
+        bootstrap reset aggressively the print styles
+        let's get more aggressive
+    */
+            body {
+
+                background: url(fabric_of_squares_gray.png)!important;
+                /* add this line for better support in chrome */
+                -webkit-print-color-adjust:exact;
+            }
+            ul.tags li {
+                color: #555!important;
+                background-color: #eee!important;
+            }
+            section {
+                background-color: white!important;
+            }
+
+
+            h2 {
+                color: #AAA!important
+            }
+
+            .year-start {
+                background-color: #dd4814!important;
+                color: white!important;
+            }
+
+            .year-end {
+                background-color: #dd4814!important;
+                color: white!important;
+            }
+
         }
 
     </style>
